@@ -16,6 +16,7 @@ html{
 	height: 100vh;
 	width: 100vw;
 	padding: 5%;
+	background: hsl(210, 46%, 95%);
 }	
 
 .main__container{
@@ -23,7 +24,7 @@ html{
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	background: hsl(210, 46%, 95%);
+	
 }
 .article__group:first-child{
 	width: 70%;
@@ -53,9 +54,9 @@ html{
 	justify-content: space-between;
 	flex-direction: column;
 	background: white;
-	box-shadow: 35px 38px 30px -20px rgba(72,85,106,0.2);
--webkit-box-shadow: 35px 38px 30px -20px rgba(72,85,106,0.2);
--moz-box-shadow: 35px 38px 30px -20px rgba(72,85,106,0.2);
+box-shadow: 13px 27px 26px -6px rgba(72,85,106,0.15);
+-webkit-box-shadow: 13px 27px 26px -6px rgba(72,85,106,0.15);
+-moz-box-shadow: 13px 27px 26px -6px rgba(72,85,106,0.15);
 
 
 }
