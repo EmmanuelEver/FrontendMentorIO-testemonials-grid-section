@@ -17,10 +17,13 @@ html{
 	width: 100vw;
 	padding: 5%;
 	background: hsl(210, 46%, 95%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }	
 
 .main__container{
-	height: 100%;
+	height: auto;
 	width: 100%;
 	display: flex;
 	justify-content: center;
@@ -34,7 +37,6 @@ html{
 }
 .article__group:last-child{
 	width: 23%;
-	height: 100%;
 	display: flex;
 }
 .article__group__row{
@@ -54,10 +56,9 @@ html{
 	justify-content: space-between;
 	flex-direction: column;
 	background: white;
-box-shadow: 13px 27px 26px -6px rgba(72,85,106,0.15);
--webkit-box-shadow: 13px 27px 26px -6px rgba(72,85,106,0.15);
--moz-box-shadow: 13px 27px 26px -6px rgba(72,85,106,0.15);
-
+	box-shadow: 13px 27px 26px -6px rgba(72,85,106,0.15);
+	-webkit-box-shadow: 13px 27px 26px -6px rgba(72,85,106,0.15);
+	-moz-box-shadow: 13px 27px 26px -6px rgba(72,85,106,0.15);
 
 }
 .article__header{
@@ -91,6 +92,9 @@ box-shadow: 13px 27px 26px -6px rgba(72,85,106,0.15);
 .article__body{
 	color: rgba(72, 85, 106, .7);
 	line-height: 1.4;
+}
+.article h1{
+	margin: 15px 0;
 }
 
 .quoted-article{
